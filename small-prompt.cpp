@@ -44,9 +44,9 @@ int main(int argc, char *argv[]){
             max_length = 5;
         }
     }
-    char* home = getenv("HOME");
+    const char* home = getenv("HOME");
     size_t homelen = strlen(home);
-    char* cwd;
+    const char* cwd;
     // This should be freed, but we are not going
     // to do this since the program runtime is so limited.
     cwd = get_current_dir_name();
