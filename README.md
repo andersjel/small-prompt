@@ -3,7 +3,13 @@ Readme
 
 This program prints the current working dir to the standard output,
 shortening it nicely if it is too long. It can be used to build a nice
-bash prompt.
+bash prompt. E.g.
+
+    /home/johndoe/documents/some-project/src/
+
+becomes
+
+    .../some-project/src/
 
 Installation
 ------------
