@@ -24,10 +24,10 @@ by executing
 To use this as your bash prompt, put it somewhere in your PATH (for
 instance, create `~/bin/` and put it there). Now run
 
-    echo PS1="$(small-prompt 30)\$ " >> ~/.bashrc
+    echo 'PS1="$(small-prompt 30)\$ "' >> ~/.bashrc
 
 If you want a color version, instead run
 
-    echo PS1="\[\033[0;31m\]\$(small-prompt 30)\$\[\033[0m\] " >> ~/.bashrc
+    echo 'PS1="\[\033[0;31m\]\$(small-prompt 30)\$\[\033[0m\] "' >> ~/.bashrc
 
 Restart your session for the change to take effect.
